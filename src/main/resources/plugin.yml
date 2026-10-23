@@ -1,0 +1,26 @@
+name: QuickShop
+version: '${project.version}'
+main: com.quickshop.QuickShopPlugin
+api-version: '1.21'
+description: Quick Buy chest-GUI shop with shards
+softdepend: [Vault]
+
+commands:
+  shop:
+    description: Open the Quick Buy GUI
+    usage: /shop [reload]
+    aliases: [quickbuy]
+  shards:
+    description: Check, pay or manage shards
+    usage: /shards [player] | /shards pay <player> <amount>
+
+permissions:
+  quickshop.use:
+    description: Use /shop
+    default: true
+  quickshop.reload:
+    description: Use /shop reload
+    default: op
+  quickshop.shards.admin:
+    description: Use /shards give|take|set
+    default: op

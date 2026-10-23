@@ -1,0 +1,150 @@
+# Prices are PER ITEM. Money shops use Vault. The "shards" shop is paid in shards.
+# Item names are Bukkit Material names. Run "/shop reload" after editing.
+# These are SAMPLE prices - replace with your own.
+
+overworld:
+  title: "Overworld Shop"
+  icon: GRASS_BLOCK
+  items:
+    COBBLESTONE: 2
+    STONE: 3
+    DIRT: 1
+    OAK_LOG: 5
+    SAND: 2
+    GLASS: 4
+    COAL: 8
+    IRON_INGOT: 20
+    GOLD_INGOT: 35
+    REDSTONE: 6
+    LAPIS_LAZULI: 8
+    DIAMOND: 100
+    EMERALD: 80
+    OBSIDIAN: 30
+    TNT: 25
+    SNOWBALL: 1
+    EGG: 1
+
+nether:
+  title: "Nether Shop"
+  icon: NETHERRACK
+  items:
+    NETHERRACK: 1
+    NETHER_BRICKS: 3
+    SOUL_SAND: 4
+    GLOWSTONE: 12
+    QUARTZ: 10
+    MAGMA_BLOCK: 8
+    NETHER_WART: 10
+    BLAZE_ROD: 40
+    GHAST_TEAR: 150
+    ANCIENT_DEBRIS: 600
+    NETHERITE_SCRAP: 800
+
+end:
+  title: "End Shop"
+  icon: END_STONE
+  items:
+    END_STONE: 3
+    PURPUR_BLOCK: 5
+    CHORUS_FRUIT: 8
+    END_ROD: 15
+    ENDER_PEARL: 50
+    ENDER_EYE: 80
+    DRAGON_BREATH: 120
+    SHULKER_SHELL: 250
+    SHULKER_BOX: 600
+    ELYTRA: 5000
+
+gear:
+  title: "Gear Shop"
+  icon: DIAMOND_SWORD
+  items:
+    BOW: 100
+    CROSSBOW: 120
+    ARROW: 3
+    SHIELD: 80
+    FISHING_ROD: 40
+    DIAMOND_SWORD: 500
+    DIAMOND_PICKAXE: 600
+    DIAMOND_AXE: 550
+    DIAMOND_HELMET: 700
+    DIAMOND_CHESTPLATE: 1100
+    DIAMOND_LEGGINGS: 1000
+    DIAMOND_BOOTS: 600
+    NETHERITE_SWORD: 2500
+    TRIDENT: 3000
+    TOTEM_OF_UNDYING: 1500
+
+food:
+  title: "Food Shop"
+  icon: COOKED_BEEF
+  items:
+    APPLE: 3
+    BREAD: 4
+    BAKED_POTATO: 4
+    COOKED_CHICKEN: 6
+    COOKED_PORKCHOP: 8
+    COOKED_BEEF: 8
+    COOKED_SALMON: 7
+    GOLDEN_CARROT: 15
+    PUMPKIN_PIE: 10
+    GOLDEN_APPLE: 100
+    ENCHANTED_GOLDEN_APPLE: 1500
+
+# Price is in SHARDS. The key is the mob name passed to the spawner command.
+shards:
+  title: "Shards Shop"
+  icon: SPAWNER
+  items:
+    pig: 50
+    cow: 50
+    zombie: 100
+    skeleton: 100
+    spider: 100
+    creeper: 150
+    enderman: 250
+    blaze: 300
+    iron_golem: 500
+
+# Enchantment books: pick an enchantment, then a level. Stack size 1, no amount screen.
+books:
+  title: "Books Shop"
+  icon: ENCHANTED_BOOK
+  enchantments:
+    sharpness:
+      1: 300
+      2: 600
+      3: 1200
+      4: 2400
+      5: 4800
+    protection:
+      1: 300
+      2: 600
+      3: 1200
+      4: 2400
+    efficiency:
+      1: 200
+      2: 400
+      3: 800
+      4: 1600
+      5: 3200
+    unbreaking:
+      1: 300
+      2: 600
+      3: 1200
+    fortune:
+      1: 500
+      2: 1000
+      3: 2000
+    looting:
+      1: 500
+      2: 1000
+      3: 2000
+    power:
+      1: 200
+      2: 400
+      3: 800
+      4: 1600
+      5: 3200
+    mending:
+      1: 5000
